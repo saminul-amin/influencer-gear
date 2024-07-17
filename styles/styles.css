@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.fonting {
+    font-family: Poppins;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul > li > a > img {
+    height: 24px;
+    width: 24px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.journey-influencer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
+
+.start-your-journey {
+    font-size: 3.5rem;
+}
+
+.journey-description {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.line-break-block {
+    display: block;
+}
+
+.preebook {
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 40px;
+    font-family: Poppins; 
+    margin-top: 25px;
+}  
+
+.logos {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-width: thin;
+    margin: 20px 220px;
+    display: flex;
+    justify-content: space-around;
+    padding: 36px;
+}
